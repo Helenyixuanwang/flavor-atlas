@@ -124,8 +124,28 @@ export default function Home() {
         </div>
       </section>
       {/* Footer */}
-      <footer className="text-center py-8 opacity-40 text-sm" style={{ color: 'var(--color-ink)' }}>
-        Built by Helen Wang · {new Date().getFullYear()}
+      <footer className="text-center py-8 text-sm" style={{ color: 'var(--color-ink)' }}>
+        <p className="opacity-40 mb-2">Built by Helen Wang · {new Date().getFullYear()}</p>
+        <div className="flex justify-center gap-6">
+          < a
+            href="https://linkedin.com/in/helenyixuanwang"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="opacity-50 hover:opacity-100 transition-opacity font-medium"
+            style={{ color: 'var(--color-papaya)' }}
+          >
+            LinkedIn
+          </a>
+          < a
+            href="https://github.com/Helenyixuanwang"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="opacity-50 hover:opacity-100 transition-opacity font-medium"
+            style={{ color: 'var(--color-papaya)' }}
+          >
+            GitHub
+          </a>
+        </div>
       </footer>
     </main>
   )
