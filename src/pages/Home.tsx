@@ -123,6 +123,10 @@ export default function Home() {
 
         </div>
       </section>
+      {/* Footer */}
+      <footer className="text-center py-8 opacity-40 text-sm" style={{ color: 'var(--color-ink)' }}>
+        Built by Helen Wang · {new Date().getFullYear()}
+      </footer>
     </main>
   )
 }
